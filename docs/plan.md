@@ -41,7 +41,6 @@ facts remain outside `model.yml`.
 
 | Issue | Repository | Status | Next action |
 | --- | --- | --- | --- |
-| #3 | meta | now | Accept the shared `docs/handoff.md` template/convention, then migrate Forge and CAD consumers. |
 | #2 | meta | now | Continue coordination of tool.cad.ci API/architecture qualification without taking implementation ownership. |
 | #1 | meta | now | Finish the shared Hugo-base decision before more CAD/Forge page divergence. |
 | #205 | CAD | next | Adopt the canonical shared `model.yml` contract after Forge #703. |
@@ -54,9 +53,8 @@ facts remain outside `model.yml`.
   conventions.
 - Established explicit language rules for maintained engineering text.
 - Established the shared repository-plan structure.
+- Established the shared `docs/handoff.md` convention with one complete copyable handoff-message block, and adopted it in Forge and the product CAD repository.
 
 ## Next checkpoint
 
-Accept the shared handoff convention and prove it with Forge and
-`2026-011-02.cad.solidcraft` as the first consumers, while keeping all current
-repository status in their own plans.
+Keep the shared documentation conventions small and finish the remaining active meta work without centralizing consumer status.
