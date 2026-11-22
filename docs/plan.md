@@ -24,7 +24,9 @@ Maintain small shared structural templates for:
 
 - repository plans at `templates/docs/plan.md`;
 - repository handoffs at `templates/docs/handoff.md`, consumed at
-  `docs/handoff.md`.
+  `docs/handoff.md`;
+- repository changelogs at `templates/CHANGELOG.md`, with version plus ISO
+  release date required for every completed release entry.
 
 The handoff is an entrypoint only. Current execution state remains in GitHub and
 the consumer's `docs/plan.md`.
@@ -41,6 +43,7 @@ facts remain outside `model.yml`.
 
 | Issue | Repository | Status | Next action |
 | --- | --- | --- | --- |
+| #7 | meta | now | Establish the shared changelog template and release-date convention. |
 | #2 | meta | now | Continue coordination of tool.cad.ci API/architecture qualification without taking implementation ownership. |
 | #1 | meta | now | Finish the shared Hugo-base decision before more CAD/Forge page divergence. |
 | #205 | CAD | next | Adopt the canonical shared `model.yml` contract after Forge #703. |
