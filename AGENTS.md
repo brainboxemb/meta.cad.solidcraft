@@ -79,6 +79,27 @@ the consumers' current status in this repository.
 The shared template defines structure only. It must not become a generated plan
 engine or a second issue tracker.
 
+## Changelogs
+
+Repositories that keep a versioned changelog use the shared structural
+reference:
+
+`templates/CHANGELOG.md`
+
+Every completed release heading contains both the released version and its
+actual release date in ISO `YYYY-MM-DD` form. `Unreleased` is the normal
+exception and remains undated.
+
+When repairing historical changelogs, recover release dates from the real
+release/tag history or other reliable repository evidence. Never substitute the
+date on which the changelog happens to be edited.
+
+Change-category headings are optional. Do not require empty `Added`,
+`Changed`, `Fixed` or similar sections merely for structural uniformity.
+
+Keep this a Markdown convention. Do not add changelog generators, validators or
+CI enforcement here unless a separate demonstrated need is accepted.
+
 ## Handoffs
 
 Every maintained repository in this SolidCraft/CAD family keeps its normal
