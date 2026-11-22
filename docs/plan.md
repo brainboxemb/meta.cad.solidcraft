@@ -24,7 +24,9 @@ Maintain small shared structural templates for:
 
 - repository plans at `templates/docs/plan.md`;
 - repository handoffs at `templates/docs/handoff.md`, consumed at
-  `docs/handoff.md`.
+  `docs/handoff.md`;
+- repository changelogs at `templates/CHANGELOG.md`, with version plus ISO
+  release date required for every completed release entry.
 
 The handoff is an entrypoint only. Current execution state remains in GitHub and
 the consumer's `docs/plan.md`.
@@ -53,6 +55,8 @@ facts remain outside `model.yml`.
   conventions.
 - Established explicit language rules for maintained engineering text.
 - Established the shared repository-plan structure.
+- Established the shared changelog template and convention requiring version
+  plus ISO release date for every completed release entry.
 - Established the shared `docs/handoff.md` convention with one complete copyable handoff-message block, and adopted it in Forge and the product CAD repository.
 
 ## Next checkpoint
