@@ -43,7 +43,6 @@ facts remain outside `model.yml`.
 
 | Issue | Repository | Status | Next action |
 | --- | --- | --- | --- |
-| #7 | meta | now | Establish the shared changelog template and release-date convention. |
 | #2 | meta | now | Continue coordination of tool.cad.ci API/architecture qualification without taking implementation ownership. |
 | #1 | meta | now | Finish the shared Hugo-base decision before more CAD/Forge page divergence. |
 | #205 | CAD | next | Adopt the canonical shared `model.yml` contract after Forge #703. |
@@ -56,6 +55,8 @@ facts remain outside `model.yml`.
   conventions.
 - Established explicit language rules for maintained engineering text.
 - Established the shared repository-plan structure.
+- Established the shared changelog template and convention requiring version
+  plus ISO release date for every completed release entry.
 - Established the shared `docs/handoff.md` convention with one complete copyable handoff-message block, and adopted it in Forge and the product CAD repository.
 
 ## Next checkpoint
