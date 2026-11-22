@@ -41,6 +41,8 @@ Those responsibilities stay in their owning repositories.
 - `templates/docs/plan.md` — shared structural template for repository plans.
 - `templates/docs/handoff.md` — shared structural template for easy-to-find
   repository handoffs at `docs/handoff.md`.
+- `templates/CHANGELOG.md` — shared changelog template; completed releases use
+  both a version identifier and an ISO `YYYY-MM-DD` release date.
 
 Keep this repository small. Add a shared rule only when at least two
 SolidCraft/CAD repositories genuinely need the same convention.
