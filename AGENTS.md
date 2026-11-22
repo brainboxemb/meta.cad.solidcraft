@@ -81,24 +81,25 @@ engine or a second issue tracker.
 
 ## Changelogs
 
-Repositories that keep a versioned changelog use the shared structural
-reference:
+The shared, repository-type-neutral changelog structure and classification
+guidance is in `templates/CHANGELOG.md`.
 
-`templates/CHANGELOG.md`
+For each completed versioned release, record the real version and actual
+release date in ISO `YYYY-MM-DD` form. `Unreleased` may remain undated.
+Backfill old dates only from reliable release/tag evidence, not edit timestamps.
 
-Every completed release heading contains both the released version and its
-actual release date in ISO `YYYY-MM-DD` form. `Unreleased` is the normal
-exception and remains undated.
+Distinguish the affected domain (public API/behavior, dependencies,
+infrastructure/tooling, internal implementation, documentation) from the kind
+of change (Added/Changed/Fixed/etc.). Use only meaningful nonempty domains.
+Prioritize external impact and migration notes. Avoid duplicating entries,
+inventing versions and turning a changelog into a commit log.
 
-When repairing historical changelogs, recover release dates from the real
-release/tag history or other reliable repository evidence. Never substitute the
-date on which the changelog happens to be edited.
-
-Change-category headings are optional. Do not require empty `Added`,
-`Changed`, `Fixed` or similar sections merely for structural uniformity.
+The covered repositories are listed explicitly in `README.md`; do not infer
+scope from the account or repo prefix alone. Each consumer owns its actual
+release notes and implementation.
 
 Keep this a Markdown convention. Do not add changelog generators, validators or
-CI enforcement here unless a separate demonstrated need is accepted.
+CI enforcement without an independently accepted need.
 
 ## Handoffs
 
