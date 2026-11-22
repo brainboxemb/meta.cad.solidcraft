@@ -24,7 +24,7 @@ Maintain small shared structural templates for:
 - repository plans at `templates/docs/plan.md`;
 - repository handoffs at `templates/docs/handoff.md`, consumed at
   `docs/handoff.md`;
-- repository changelogs at `templates/CHANGELOG.md`, with version plus ISO
+- repository changelogs at `templates/docs/CHANGELOG.md`, with version plus ISO
   release date and generic change-domain classification.
 
 The handoff is an entrypoint only. Current execution state remains in GitHub and
