@@ -91,8 +91,10 @@ The shared structural reference is:
 `templates/docs/handoff.md`
 
 A handoff is an easy-to-find session entrypoint, not a second repository plan.
-It must tell the next agent to inspect current GitHub state and then read
-`AGENTS.md` and `docs/plan.md`.
+The document contains one clearly marked, complete copyable handoff-message
+block. The surrounding prose only explains how to use or maintain that block.
+The message must tell the next agent to inspect current GitHub state and then
+read `AGENTS.md` and `docs/plan.md`.
 
 Do not duplicate volatile state in a handoff: exact current SHAs,
 runtime/release pins, active issue/PR status, temporary migration phases and
