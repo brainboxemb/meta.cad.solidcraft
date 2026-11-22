@@ -39,6 +39,11 @@ Language use is a repository contract, not a per-file preference.
   do not silently rewrite unrelated historical evidence merely for language
   consistency.
 
+## Write simply
+
+Use normal engineering language. Use the names that exist in the code and in
+SolidCraft. Avoid architecture jargon and invented terms.
+
 ## Ownership boundary
 
 This repository may own:
