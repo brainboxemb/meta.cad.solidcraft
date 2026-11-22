@@ -15,6 +15,7 @@ contracts consistent across repositories such as:
 
 - small reusable documentation templates;
 - the shared repository-plan structure;
+- the shared repository-handoff structure;
 - shared SolidCraft/CAD documentation conventions;
 - shared descriptive metadata contracts such as the canonical `model.yml`
   contract once that contract is agreed.
@@ -38,6 +39,8 @@ Those responsibilities stay in their owning repositories.
 - `AGENTS.md` — rules for maintaining this repository, including language use.
 - `docs/plan.md` — current work in this repository.
 - `templates/docs/plan.md` — shared structural template for repository plans.
+- `templates/docs/handoff.md` — shared structural template for easy-to-find
+  repository handoffs at `docs/handoff.md`.
 
 Keep this repository small. Add a shared rule only when at least two
 SolidCraft/CAD repositories genuinely need the same convention.
