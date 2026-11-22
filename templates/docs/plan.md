@@ -1,0 +1,55 @@
+# <repository> plan
+
+This file is the current source of truth for unfinished work in
+`<repository>`.
+
+State the repository's role in one short paragraph. Keep implementation history
+in issues/change records rather than accumulating it here.
+
+## Current accepted baseline
+
+Record only the accepted state needed to understand current work:
+
+- permanent source lanes or equivalent lifecycle branches;
+- current accepted release/runtime/toolchain where relevant;
+- important already-accepted architecture decisions;
+- exact stable integration revision when that is operationally useful.
+
+## Lane rule
+
+Describe the repository's active work lanes and merge/promote rule.
+
+Omit this section only when the repository genuinely has no lane distinction.
+
+## Active workstreams
+
+### WS1 — <name>
+
+State:
+
+- owner/lane;
+- current status;
+- next concrete gate;
+- blockers or external owner work.
+
+Add further workstreams only for genuinely independent current work.
+
+## Open issue assignment
+
+| Issue | Lane/owner | Status | Next action |
+| --- | --- | --- | --- |
+| #N | <lane> | now / next / later / blocked / probably obsolete / effectively complete but still open | <one concrete next action> |
+
+Every open issue should be classifiable from this table or an explicitly linked
+specialized tracker. Do not let the plan become a second issue-history log.
+
+## Recently completed
+
+Keep only a short recent context window that materially explains the current
+baseline. Historical detail belongs in issues/change records.
+
+## Next release/checkpoint
+
+State the next real integration, release or acceptance checkpoint.
+
+If the repository is not released, name the next equivalent acceptance gate.
