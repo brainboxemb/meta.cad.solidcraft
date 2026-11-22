@@ -82,7 +82,7 @@ engine or a second issue tracker.
 ## Changelogs
 
 The shared, repository-type-neutral changelog structure and classification
-guidance is in `templates/CHANGELOG.md`.
+guidance is in `templates/docs/CHANGELOG.md`.
 
 For each completed versioned release, record the real version and actual
 release date in ISO `YYYY-MM-DD` form. `Unreleased` may remain undated.
