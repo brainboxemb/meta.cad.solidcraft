@@ -40,7 +40,7 @@ being owned by the same GitHub account alone is not sufficient.
   for the current repository plan (`docs/plan.md`).
 - [`templates/docs/handoff.md`](templates/docs/handoff.md) — structural guide
   for a session-entrypoint handoff (`docs/handoff.md`).
-- [`templates/CHANGELOG.md`](templates/CHANGELOG.md) — generic release
+- [`templates/docs/CHANGELOG.md`](templates/docs/CHANGELOG.md) — generic release
   changelog structure and guidance for API, dependencies, infrastructure,
   internal implementation and documentation, with actual version/date history.
 
