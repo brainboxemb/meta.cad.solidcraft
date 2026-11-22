@@ -8,10 +8,9 @@ This file is the current source of truth for unfinished work in
 The repository exists as a deliberately small shared home for SolidCraft/CAD
 conventions and templates.
 
-Initial consumers:
-
-- `brainboxemb/lib.py.solidcraft.forge`;
-- `brainboxemb/2026-011-02.cad.solidcraft`.
+The explicitly covered repository family and ownership boundaries are listed
+in `README.md`; do not duplicate that inventory or transient repository state
+in this plan.
 
 No executable CI, verification, runtime or product-CAD implementation belongs
 here.
@@ -26,7 +25,7 @@ Maintain small shared structural templates for:
 - repository handoffs at `templates/docs/handoff.md`, consumed at
   `docs/handoff.md`;
 - repository changelogs at `templates/CHANGELOG.md`, with version plus ISO
-  release date required for every completed release entry.
+  release date and generic change-domain classification.
 
 The handoff is an entrypoint only. Current execution state remains in GitHub and
 the consumer's `docs/plan.md`.
@@ -55,8 +54,9 @@ facts remain outside `model.yml`.
   conventions.
 - Established explicit language rules for maintained engineering text.
 - Established the shared repository-plan structure.
-- Established the shared changelog template and convention requiring version
-  plus ISO release date for every completed release entry.
+- Established generic shared changelog guidance: actual version/date and
+  separate public API, dependency, infrastructure, internal and documentation
+  domains; documented the covered repository family in README.
 - Established the shared `docs/handoff.md` convention with one complete copyable handoff-message block, and adopted it in Forge and the product CAD repository.
 
 ## Next checkpoint
