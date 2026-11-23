@@ -48,6 +48,13 @@ facts remain outside `model.yml`.
 | #204 | CAD | next | Remove derived SCPC command counts from model metadata. |
 | #206 | CAD | later | Remove Forge-owned reference implementations from the product CAD repository. |
 
+## Shared engineering principles
+
+The repository now owns a small durable convention for runtime performance,
+development-cycle performance and agent-manageable repository structure at
+`docs/engineering-principles.md`. Concrete budgets and implementation remain
+with consumer repositories.
+
 ## Recently completed
 
 - Created `meta.cad.solidcraft` as a narrow owner for shared CAD/SolidCraft
