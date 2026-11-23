@@ -21,6 +21,16 @@ Describe the repository's active work lanes and merge/promote rule.
 
 Omit this section only when the repository genuinely has no lane distinction.
 
+## Engineering constraints
+
+When performance, feedback-loop cost or maintainability materially shapes the
+repository, record the repository-specific constraints here and link to
+`meta.cad.solidcraft/docs/engineering-principles.md` rather than copying the
+shared principles. State only concrete local consequences or budgets.
+
+Omit this section when those constraints are not material to current repository
+architecture.
+
 ## Active workstreams
 
 ### WS1 — <name>
