@@ -34,6 +34,13 @@ owns their implementation, or that generic tooling becomes CAD-specific.
 Additional repositories are included only by an explicit update to this list;
 being owned by the same GitHub account alone is not sufficient.
 
+## Shared engineering principles
+
+- [`docs/engineering-principles.md`](docs/engineering-principles.md) —
+  cross-repository constraints for runtime performance, development-cycle
+  performance and agent-manageable structure. Consumer repositories own the
+  concrete implementation and measurements.
+
 ## Shared templates
 
 - [`templates/docs/plan.md`](templates/docs/plan.md) — structural guide
