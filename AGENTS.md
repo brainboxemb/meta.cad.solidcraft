@@ -64,6 +64,11 @@ It must not own:
 
 Link to the owner repository instead of copying its implementation rules here.
 
+Shared cross-repository engineering constraints for runtime performance,
+development feedback speed and agent manageability live in
+`docs/engineering-principles.md`. Keep them principle-level here; concrete
+budgets, tests and implementation remain with the owning repository.
+
 ## Plans
 
 Every maintained repository in this SolidCraft/CAD family keeps its own current
