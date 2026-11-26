@@ -3,6 +3,15 @@
 This file is the current source of truth for unfinished work in
 `<repository>`.
 
+Keep this file canonical on the repository's stable branch (`main` for the
+current SolidCraft/CAD repositories). Normal and experimental lanes read the
+stable plan. Their working-tree copies are synchronized projections and must
+not become independent work queues.
+
+Reconcile plan changes on a short-lived governance/docs branch created from the
+stable branch and merge them back to stable through the repository's normal
+merge policy. The one canonical plan describes all active lanes and workstreams.
+
 State the repository's role in one short paragraph. Keep implementation history
 in issues/change records rather than accumulating it here.
 
