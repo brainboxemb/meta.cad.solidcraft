@@ -81,6 +81,12 @@ The shared structural reference is:
 A consumer plan contains repository-specific facts and work. Do not centralize
 the consumers' current status in this repository.
 
+The consumer's stable branch owns the canonical `docs/plan.md` (`main` for
+the current covered repositories). Normal and experimental branches read that
+stable plan. Copies present on those lanes are synchronization results, not
+independent plans. Plan reconciliation starts from stable and targets stable
+through the repository's normal governance/merge-policy path.
+
 The shared template defines structure only. It must not become a generated plan
 engine or a second issue tracker.
 
