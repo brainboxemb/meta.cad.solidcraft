@@ -6,8 +6,8 @@ This document is the easy-to-find handoff entrypoint for a new work session.
 It contains one copyable handoff message below.
 
 The handoff message is deliberately an entrypoint, not a second repository
-plan. Current work must always be derived from live GitHub state and
-`docs/plan.md`.
+plan. Current work must always be derived from live GitHub state and the
+canonical stable-branch `docs/plan.md` (normally `main`).
 
 Shared SolidCraft/CAD documentation conventions live in
 `brainboxemb/meta.cad.solidcraft`. Use
@@ -34,8 +34,8 @@ Start by:
 
 1. inspecting the current issues, pull requests and branches;
 2. reading AGENTS.md;
-3. reading docs/plan.md;
-4. treating docs/plan.md as the source of truth for unfinished work;
+3. reading the canonical stable-branch docs/plan.md (normally main);
+4. treating that stable docs/plan.md as the source of truth for unfinished work;
 5. following the current work order from the plan rather than from old handoff
    text;
 6. creating an issue before implementation when the logical change has none;
@@ -48,7 +48,9 @@ Durable working rules:
 
 - <rule that remains useful across sessions>;
 - <owner boundary that prevents a local workaround>;
-- <lane or merge rule only when it is genuinely durable>.
+- <lane or merge rule only when it is genuinely durable>;
+- reconcile docs/plan.md on the stable branch; development-lane copies are
+  synchronized projections, not independent plans.
 
 Shared document structures live in brainboxemb/meta.cad.solidcraft:
 templates/docs/plan.md and templates/docs/handoff.md.
